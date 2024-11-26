@@ -8,12 +8,12 @@
       "@microsoft/teams-js": "2.12.0"
     },
     "version": "1.18.1",
-    "libraryName": "Visor-bim-gis-V1.0",
-    "libraryId": "eb10b238-e124-4c3d-8165-6380817cbe59",
+    "libraryName": "visor-bim-gis",
+    "libraryId": "b7eda592-808b-4a2e-bca3-0dd3ececd2a9",
     "environment": "spo",
     "packageManager": "npm",
-    "solutionName": "Visor-bim-gis-V1.0",
-    "solutionShortDescription": "Visor-bim-gis-V1.0 description",
+    "solutionName": "Visor BimGis",
+    "solutionShortDescription": "Visor BimGis description",
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "componentType": "webpart"

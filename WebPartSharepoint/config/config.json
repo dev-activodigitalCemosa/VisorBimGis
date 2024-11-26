@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "visor-bim-gis-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/visorBimGis/VisorBimGisWebPart.js",
+          "manifest": "./src/webparts/visorBimGis/VisorBimGisWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VisorBimGisWebPartStrings": "lib/webparts/visorBimGis/loc/{locale}.js"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "visor-bim-gis",
-    "id": "99ea49b7-2891-425d-88b2-b109a7c16fcb",
-    "version": "2.0.0.0",
+    "name": "visor-bim-gis-client-side-solution",
+    "id": "b7eda592-808b-4a2e-bca3-0dd3ececd2a9",
+    "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -16,10 +16,10 @@
     },
     "metadata": {
       "shortDescription": {
-        "default": "Visor bim gis V1.0 description"
+        "default": "Visor BimGis description"
       },
       "longDescription": {
-        "default": "Visor bim gis V1.0 description"
+        "default": "Visor BimGis description"
       },
       "screenshotPaths": [],
       "videoUrl": "",
@@ -27,14 +27,14 @@
     },
     "features": [
       {
-        "title": "Visor bim gis V1.0 Feature",
-        "description": "The feature that activates elements of the ifc-simple solution.",
-        "id": "04026829-edae-41e3-b495-0b38e29839be",
+        "title": "visor-bim-gis Feature",
+        "description": "The feature that activates elements of the visor-bim-gis solution.",
+        "id": "4885e562-fa9b-4295-976b-64fa2f12db40",
         "version": "1.0.0.0"
       }
     ]
   },
   "paths": {
-    "zippedPackage": "solution/Visor-Modelos-IFC-V2.0.sppkg"
+    "zippedPackage": "solution/visor-bim-gis.sppkg"
   }
 }

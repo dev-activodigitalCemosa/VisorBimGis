@@ -12,7 +12,6 @@ module.exports = {
         'sourceType': 'module'
       },
       rules: {
-        '@typescript-eslint/ban-ts-comment': 0,
         // Prevent usage of the JavaScript null value, while allowing code to access existing APIs that may require null. https://www.npmjs.com/package/@rushstack/eslint-plugin
         '@rushstack/no-new-null': 1,
         // Require Jest module mocking APIs to be called before any other statements in their code block. https://www.npmjs.com/package/@rushstack/eslint-plugin
@@ -80,7 +79,7 @@ module.exports = {
         //                    This rule should be suppressed only in very special cases such as JSON.stringify()
         //                    where the type really can be anything.  Even if the type is flexible, another type
         //                    may be more appropriate such as "unknown", "{}", or "Record<k,V>".
-        '@typescript-eslint/no-explicit-any': 0,
+        '@typescript-eslint/no-explicit-any': 1,
         // RATIONALE:         The #1 rule of promises is that every promise chain must be terminated by a catch()
         //                    handler.  Thus wherever a Promise arises, the code must either append a catch handler,
         //                    or else return the object to a caller (who assumes this responsibility).  Unterminated
@@ -322,7 +321,7 @@ module.exports = {
         // ====================================================================
         // @microsoft/eslint-plugin-spfx
         // ====================================================================
-        '@microsoft/spfx/import-requires-chunk-name': 0,
+        '@microsoft/spfx/import-requires-chunk-name': 1,
         '@microsoft/spfx/no-require-ensure': 2,
         '@microsoft/spfx/pair-react-dom-render-unmount': 1
       }

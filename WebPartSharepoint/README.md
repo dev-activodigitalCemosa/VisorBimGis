@@ -1,4 +1,4 @@
-# ifc-simple
+# visor-bim-gis
 
 ## Summary
 
