@@ -34,7 +34,7 @@ export function addGeoJSONLayer(map) {
         },
         geometry: {
             type: "Point",
-            coordinates: [-0.09, 51.505],
+            coordinates: [-0.10, 51.505],
         },
     };
 
