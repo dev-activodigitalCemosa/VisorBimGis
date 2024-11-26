@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "visor-modelos-ifc",
+    "id": "99ea49b7-2891-425d-88b2-b109a7c16fcb",
+    "version": "2.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Visor Modelos IFC V2.0 description"
+      },
+      "longDescription": {
+        "default": "Visor Modelos IFC V2.0 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Visor Modelos IFC V2.0 Feature",
+        "description": "The feature that activates elements of the ifc-simple solution.",
+        "id": "04026829-edae-41e3-b495-0b38e29839be",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/Visor-Modelos-IFC-V2.0.sppkg"
+  }
+}

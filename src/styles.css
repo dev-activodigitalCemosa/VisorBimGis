@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+}
+
+#map {
+    height: 90vh; /* Ajusta el mapa para ocupar el 90% de la altura */
+    width: 100%;
+    position: absolute;
+}

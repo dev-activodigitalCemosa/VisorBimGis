@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ifc-simple-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ifcSimple/IfcSimpleWebPart.js",
+          "manifest": "./src/webparts/ifcSimple/IfcSimpleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "IfcSimpleWebPartStrings": "lib/webparts/ifcSimple/loc/{locale}.js"
+  }
+}
