@@ -8,12 +8,12 @@
       "@microsoft/teams-js": "2.12.0"
     },
     "version": "1.18.1",
-    "libraryName": "Visor-Modelos-IFC-V2.0",
+    "libraryName": "Visor-bim-gis-V1.0",
     "libraryId": "eb10b238-e124-4c3d-8165-6380817cbe59",
     "environment": "spo",
     "packageManager": "npm",
-    "solutionName": "Visor-Modelos-IFC-V2.0",
-    "solutionShortDescription": "Visor-Modelos-IFC-V2.0 description",
+    "solutionName": "Visor-bim-gis-V1.0",
+    "solutionShortDescription": "Visor-bim-gis-V1.0 description",
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "componentType": "webpart"

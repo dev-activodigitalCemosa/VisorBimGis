@@ -30,7 +30,7 @@ export default class IfcSimpleWebPart extends BaseClientSideWebPart<IIfcSimpleWe
     setTimeout(async () => {
       await import(
       // @ts-ignore
-      /*webpackIgnore: true*/ "https://dev-activodigitalcemosa.github.io/IFCLoader/dist2/assets/index-D8eWUHJP.js"
+      /*webpackIgnore: true*/ "https://dev-activodigitalcemosa.github.io/VisorBimGis/dist/assets/index-CxuOtmFM.js"
       )
 
       window.dispatchEvent(new Event("resize"));
